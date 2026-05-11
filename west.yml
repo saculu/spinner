@@ -1,5 +1,6 @@
 # Copyright (c) 2021 Teslabs Engineering S.L.
 # SPDX-License-Identifier: Apache-2.0
+# Requires Zephyr SDK 0.16.5
 
 manifest:
   self:
@@ -13,7 +14,7 @@ manifest:
     - name: zephyr
       remote: zephyr
       repo-path: zephyr
-      revision: main
+      revision: v3.6.0
       import:
         name-allowlist:
           - cmsis
